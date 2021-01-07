@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1250px;
+}
+
+.error_name {
+    font-size: 24px;
+    line-height: 25.18px;
+    margin: 2rem;
+}
+
+/* 
+>>>>>>>> main srction>>>>>>>>>
+*/
+.main_section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -108px;
+}
+
+.error_img img{
+    height: 447.4263916015625px;
+width: 539.2236938476562px;
+left: 77px;
+top: 265px;
+border-radius: 0px;
+
+    position: absolute;
+left: 5.35%;
+right: 57.21%;
+top: 24.54%;
+bottom: 34.03%;
+}
+
+.error_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.error_data h1{
+height: 190px;
+width: 586px;
+font-size: 64px;
+line-height: 95px;
+letter-spacing: -0.035em;
+}
+
+.error_data p {
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 673px;
+    top: 389px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.error_data button {
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 673px;
+    top: 522px;
+    background: #160f0f;
+    color: white;
+    border-radius: 2em;
+    font-size: 15px;
+    line-height: 15px;
+    outline: none;
+}
+footer {
+    font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 5px;
+}
+
+@media (max-width: 539.2236938476562px){
+    footer {
+        height: 452px;
+        width: 402px;
+        left: 115px;
+        top: 890px;
+        border-radius: nullpx;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    
+    .wrapper {
+       display: flex;
+       flex-direction: column;
+       width: 529px;
+   }
+   .main_section{
+       display: flex;
+       flex-direction: column;
+   }
+   
+    .error_img img{ 
+        height: 329.000015px;
+        width: 362.829834px;
+        left: 44px;
+        top: 109px;
+        position: absolute;
+        left: 13.73%;
+        top: 25.49%;
+    }
+
+.error_data h1{
+    margin: 0 auto;
+    margin-top: 554px;
+    height: 142px;
+    width: 350px;
+    border-radius: nullpx;
+    font-size: 48px;
+    line-height: 71px;
+    }
+
+.error_data p{
+    height: 81px;
+    width: 328px;
+    left: 88px;
+    top: 614px;
+    }
+
+
+.error_data button {
+    left: 90px;
+    top: 735px;
+    }
+
+    
+}
