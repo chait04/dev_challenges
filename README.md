@@ -3,4 +3,7 @@
 * Go to specific diretory for solutions
 
 1. Response web design = 7 exercises 
-_____<code>2 completed </code>
+
+## Currently 2 challenges are completed and one is in progress
+
+* All these cahllenges are taken from <a href="https://devchallenges.io/">Devchallenges.io </a>
